@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
             alert('Registration failed: ' + error.message);
         }
     });
-
+    // Login Issue#1
     loginForm.addEventListener('submit', async (e) => {
         e.preventDefault();
         const email = document.getElementById('login-email').value;
