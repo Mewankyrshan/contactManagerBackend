@@ -17,7 +17,7 @@ MyContacts Backend is a Node.js application built with Express.js and MongoDB, p
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Mewankyrshan/contactManagerBackend.git
    cd mycontacts-backend
 
 2. Install dependencies:
