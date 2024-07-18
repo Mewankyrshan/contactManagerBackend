@@ -38,7 +38,7 @@ const registerUser = asyncHandler(async (req, res) => {
 //@route GET /api/users/login
 //@access public
 const loginUser = asyncHandler(async (req, res) => {
-    const { email, passowrd} = req.body;
+    const { email, password} = req.body;
     if(!email || !password){
         res.status(400);
         throw new Error("All fields are mandatory");
@@ -58,7 +58,7 @@ const loginUser = asyncHandler(async (req, res) => {
         res.status(200).json({accessToken});
     } else {
         res.status(401);
-        throw new Error("Email or Passowrd is not valid");
+        throw new Error("Email or Password is not valid");
     }
     
     res.json({message: "Login User",
