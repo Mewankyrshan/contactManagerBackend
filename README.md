@@ -28,6 +28,7 @@ MyContacts Backend is a Node.js application built with Express.js and MongoDB, p
     Create a .env file based on .env.example and provide values for MongoDB connection and JWT secret.
 
 4. Start the server
+    ```bash
     npm start
 
 5. The server should now be running at 'http://localhost:3000'
